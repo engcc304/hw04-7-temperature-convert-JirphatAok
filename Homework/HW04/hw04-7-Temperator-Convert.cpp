@@ -15,11 +15,10 @@
 */
 #include <stdio.h>
 int main() {
-    int Celsius ;
-    float Fahrenheit ;
+    float Fahrenheit, Celsius ;
     printf( "User input :") ;
-    scanf("%d", &Celsius ) ;
+    scanf("%f", &Celsius ) ;
     Fahrenheit = (1.8*Celsius)+32 ;
-    printf( "%d degree Celsius = %0.1f degree Fahrenheit",Celsius ,Fahrenheit ) ;
-    return 0
+    printf( "%f degree Celsius = %0.1f degree Fahrenheit",Celsius ,Fahrenheit ) ;
+    return 0 ;
 }//endfunction
