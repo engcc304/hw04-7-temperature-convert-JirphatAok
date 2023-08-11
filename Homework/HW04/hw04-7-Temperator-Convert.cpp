@@ -16,9 +16,9 @@
 #include <stdio.h>
 int main() {
     float Fahrenheit, Celsius ;
-    printf( "User input :") ;
+    printf( "User input :\n") ;
     scanf("%f", &Celsius ) ;
     Fahrenheit = (1.8*Celsius)+32 ;
-    printf( "%f degree Celsius = %0.1f degree Fahrenheit",Celsius ,Fahrenheit ) ;
+    printf( "%f degree Celsius = %0.1f degree Fahrenheit\n",Celsius ,Fahrenheit ) ;
     return 0 ;
 }//endfunction
